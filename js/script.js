@@ -1,21 +1,51 @@
-//Переменные с равильным именем
-let a = 15;
-let b = 62;
+//вывел в консоль число PI
+Math;
+console.log(Math.PI);
 
-//поменял местами a и b
-a = a + b;
-b = a - b;
-a = a - b;
+//вывел в модальное окно и в консоль дату
+let now = new Date(1999, 02, 0, 18, 30, 0);
+alert(now);
+console.log(now);
 
-//вывел на консоль
-console.log(a, b);
+// Примеры
+let a = 1;
+let b = 3;
+let c = " волков";
 
-//мадальноле окно
-alert("Lorem");
+console.log(a + (b + c));
 
-//вывел текст на экран
-document.write("Hi. What is your name?");
+//Можно сделать ещё так
 
-//Переменные с неправильным именем
-/*let 1a = 54;
-let 2b = 5;*/
+let d = "1";
+let g = 3;
+let f = " волков";
+
+console.log(d + g + f);
+
+//Переменные name, adress, phone
+let name = prompt("Студент");
+let adress = prompt("Адресс");
+let phone = prompt("Номер телефона");
+
+console.log(
+  `Меня зовут ${name}, я живу в городе ${adress}, мой номер телефона ${phone}`
+);
+
+//Добавил константы
+const sad = {
+  name: "Gilani",
+};
+sad.name = "Gilani";
+console.log(sad);
+//Изменение константы на прямую невозможно.
+
+//Обмен валюты
+const RUB = 68.25;
+const USD = 1;
+const summaRUB = 1000;
+
+const exchangeRate = RUB / USD;
+console.log(`${RUB} Российский рубль = ${USD} долларов США`);
+
+const exchange = summaRUB / RUB;
+console.log(`За ${summaRUB} рублей: ${exchange} долларов США`);
