@@ -30,3 +30,44 @@ if (dataLogin === login && dataPas === password) {
 } else {
   console.log("Error");
 }
+
+//Добавил switch, case
+let code = "html";
+
+switch (code) {
+  case "html":
+    console.log("html");
+    break;
+  case "css":
+    console.log("css");
+    break;
+  case "scss":
+    console.log("scss");
+    break;
+  case "js":
+    console.log("js");
+    break;
+  case "react":
+    console.log("react");
+    break;
+}
+
+let codes = "js";
+
+switch (codes) {
+  case "html":
+    console.log("html");
+    break;
+  case "css":
+    console.log("css");
+    break;
+  case "scss":
+    console.log("scss");
+    break;
+  case "js":
+    console.log("js");
+    break;
+  case "react":
+    console.log("react");
+    break;
+}
