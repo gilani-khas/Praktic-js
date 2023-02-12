@@ -173,7 +173,7 @@ let summa = newText.reduce((sum, item) => {
   return item.x + sum;
 }, 0);
 console.log(summa);
-*/
+
 
 //1
 let arr_1 = [101, 202, 303, 404, 505];
@@ -232,3 +232,47 @@ while (numb1 <= 10) {
   console.log(numb1);
   numb1++;
 }
+*/
+
+// console.log(document.body.firstChild.nextSibling);
+// console.log(document.body.firstElementChild);
+// console.log(document.head.lastElementChild);
+// console.log(document.head.lastChild.previousSibling);
+
+// let ol = document.getElementById("ol");
+
+//console.log(ol);
+
+// console.log(ul.firstElementChild);
+// console.log(ul.firstElementChild.nextElementSibling);
+// console.log(ul.firstElementChild.nextElementSibling.nextElementSibling);
+// console.log(ul.lastElementChild);
+
+// ol.append("Lorem 5");
+// ol.prepend("Lorem 0");
+
+//let li = document.createElement("li");
+
+// li.innerHTML = "Lorem 5";
+
+//li.append("Lorem 6");
+
+//console.log(li);
+
+let ul = document.getElementById("ul");
+let li = document.createElement("li");
+let li2 = document.createElement("li");
+let li3 = document.createElement("li");
+let li4 = document.createElement("li");
+
+li.innerHTML = "Lorem 1";
+li2.innerHTML = "Lorem 2";
+li3.innerHTML = "Lorem 3";
+li4.innerHTML = "Lorem 4";
+
+ul.append(li);
+ul.append(li2);
+ul.append(li3);
+ul.append(li4);
+
+console.log(ul);
