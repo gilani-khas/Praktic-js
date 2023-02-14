@@ -259,20 +259,38 @@ while (numb1 <= 10) {
 
 //console.log(li);
 
-let ul = document.getElementById("ul");
-let li = document.createElement("li");
-let li2 = document.createElement("li");
-let li3 = document.createElement("li");
-let li4 = document.createElement("li");
+// let ul = document.getElementById("ul");
+// let li = document.createElement("li");
+// let li2 = document.createElement("li");
+// let li3 = document.createElement("li");
+// let li4 = document.createElement("li");
 
-li.innerHTML = "Lorem 1";
-li2.innerHTML = "Lorem 2";
-li3.innerHTML = "Lorem 3";
-li4.innerHTML = "Lorem 4";
+// li.innerHTML = "Lorem 1";
+// li2.innerHTML = "Lorem 2";
+// li3.innerHTML = "Lorem 3";
+// li4.innerHTML = "Lorem 4";
 
-ul.append(li);
-ul.append(li2);
-ul.append(li3);
-ul.append(li4);
+// ul.append(li);
+// ul.append(li2);
+// ul.append(li3);
+// ul.append(li4);
 
-console.log(ul);
+// console.log(ul);
+
+let ferst = document.getElementById("ferst");
+
+let strip = document.getElementById("strip");
+
+ferst.addEventListener("click", f);
+ferst.addEventListener("click", border);
+
+strip.addEventListener("click", f);
+strip.addEventListener("click", border);
+
+function f() {
+  this.classList.toggle("color");
+}
+
+function border() {
+  this.classList.toggle("border");
+}
